@@ -86,7 +86,7 @@ async function handleRequest(request) {
   console.log(path)
   if(!path){
 
-    const html= await fetch("https://cdn.jsdelivr.net/gh/jahanpeer/youtubec@7ac1f3bef9e56111e70d3d47bd0d9d4f310f4bab/index.html")
+    const html= await fetch("https://cdn.jsdelivr.net/gh/jahanpeer/youtubec@8bb4a383a8f5b0741b08cf124df231449532b6e1/index.html")
 /****customized index.html at main branch, easier to edit it****/
     
     return new Response(await html.text(), {
